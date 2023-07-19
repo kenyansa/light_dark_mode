@@ -17,3 +17,12 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
