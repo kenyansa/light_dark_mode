@@ -84,3 +84,12 @@ span{
     left: 54%;
     border-radius: 40%;
 }
+.social-links{
+    margin-left: 10%;
+    margin-top: 100px;
+}
+.social-links a{
+    font-size: 30px;
+    color: #606166;
+    margin-right: 20px;
+}
