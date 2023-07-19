@@ -65,10 +65,22 @@ span{
     bottom: 0;
     right: 100px;
 }
+.img-box #main-img{
+    border-radius: 50%;
+}
 .img-box img{
     height: 100%;
     position: absolute;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
+    transition: bottom 1s;
+}
+.img-box:hover #back-img{
+    bottom: 40px;
+
+}
+.img-box:hover #main-img{
+    left: 54%;
+    border-radius: 40%;
 }
