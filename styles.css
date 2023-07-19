@@ -45,3 +45,17 @@ nav ul li a:hover{
 span{
     color: #ff4321;
 }
+.info p{
+    color: #606166;
+    line-height: 25px;
+}
+.info a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+
