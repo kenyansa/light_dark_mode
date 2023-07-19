@@ -33,3 +33,12 @@ nav ul li a{
 nav ul li a:hover{
     color: red;
 }
+.info{
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.info h1{
+    font-size: 80px;
+    color: #212121;
+    margin-bottom: 20px;
+}
