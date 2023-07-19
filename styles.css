@@ -8,6 +8,7 @@
     background: #edf2fc;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
+    overflow: hidden;
 }
 nav{
     width: 84%;
@@ -60,10 +61,11 @@ span{
 }
 .img-box{
     width: 45%;
-    height: 80%;
+    height: 50%;
     position: absolute;
     bottom: 0;
     right: 100px;
+    margin-bottom: 20px;
 }
 .img-box #main-img{
     border-radius: 50%;
@@ -87,9 +89,13 @@ span{
 .social-links{
     margin-left: 10%;
     margin-top: 100px;
+    margin-bottom: 10%;
 }
 .social-links a{
     font-size: 30px;
     color: #606166;
     margin-right: 20px;
+}
+.social-links a:hover{
+    color: #ff4321;
 }
