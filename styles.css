@@ -35,6 +35,7 @@ nav ul{
     cursor: pointer;
     image-rendering: pixelated;
     border-radius: 50%;
+    padding: 20px 0;
 }
 nav ul li{
     display: inline-block;
@@ -82,7 +83,7 @@ span{
     position: absolute;
     bottom: 0;
     right: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 .img-box #main-img{
     border-radius: 50%;
