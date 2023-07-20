@@ -21,6 +21,8 @@ nav{
 .logo{
     width: 100px;
     cursor: pointer;
+    image-rendering: pixelated;
+    border-radius: 50%;
 }
 nav ul li{
     display: inline-block;
@@ -98,4 +100,9 @@ span{
 }
 .social-links a:hover{
     color: #ff4321;
+}
+#moon{
+    width: 35px;
+    cursor: pointer;
+    border-radius: 50%;
 }
