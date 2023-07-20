@@ -44,6 +44,8 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: var(--secondary-color);
+    padding: 10px; 
+    /*create more space between links */
 }
 nav ul li a:hover{
     color: red;
@@ -109,6 +111,7 @@ span{
     font-size: 30px;
     color: var(--secondary-color);
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 .social-links a:hover{
     color: #ff4321;
@@ -137,6 +140,19 @@ span{
     
       nav ul li {
         margin: 10px 0;
+      }
+      .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 8%; /* Adjust the alignment and spacing as needed */
+        
+
+      }
+    
+      /* Prevent scrolling on small screens */
+      .hero {
+        overflow: hidden;
       }
   }
   /* Medium devices (e.g., tablets) */
