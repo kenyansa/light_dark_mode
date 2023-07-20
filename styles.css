@@ -5,7 +5,10 @@
 :root{
     --primary-color: #edf2fc;
     --secondary-color: #212121;
-    
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: white;
 }
 .hero{
     height: 100vh;
@@ -62,7 +65,7 @@ span{
     line-height: 25px;
 }
 .info a{
-    background: #212121;
+    background: var(--secondary-color);
     padding: 10px 18px;
     text-decoration: none;
     color: var(--primary-color);
