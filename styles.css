@@ -113,7 +113,7 @@ span{
 .social-links a:hover{
     color: #ff4321;
 }
-#moon{
+#switcher{
     width: 35px;
     cursor: pointer;
     border-radius: 50%;
