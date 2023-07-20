@@ -52,7 +52,7 @@ nav ul li a:hover{
 }
 .info{
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 .info h1{
     font-size: 7vw;
@@ -64,7 +64,8 @@ span{
 }
 .info p{
     color: var(--secondary-color);
-    line-height: 25px;
+    line-height: 35px;
+    font-size: 2vw;
 }
 .info a{
     background: var(--secondary-color);
